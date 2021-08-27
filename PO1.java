@@ -32,7 +32,7 @@ public class PO {
 			}
 			int sum = 0;
 			for (int i = 0; i < cc.length() - 1; i++) { sum += ccNumbers.get(i); }
-			if ((10 - (sum % 10)) == checkDigit) { return true;	}
+			if ((10 - (sum % 10)) == checkDigit) { return true; }
 		}
 		return false;
 	}
