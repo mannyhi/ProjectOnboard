@@ -7,7 +7,7 @@
 // Add all digits.
 // Subtract the last digit of the sum (from step 4) from 10. The result should be equal to the check digit from step 1.
 
-// Examples:  	validateCard(1234567890123452) --> true
+// Examples:  			validateCard(1234567890123452) --> true
 // 				validateCard(1234567890123456) --> false
 // 				Step 1: check digit = 6, num = 123456789012345
 // 				Step 2: num reversed = 543210987654321
