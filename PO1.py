@@ -15,7 +15,6 @@ def collatz_cal(num):
             num = (3 * num + 1)
     return cnt
 
-
 def collatz(a, b):
     if (collatz_cal(a)) < (collatz_cal(b)):
         print('a')
@@ -24,9 +23,7 @@ def collatz(a, b):
     else:
         print('neither')
 
-
 # results below are: a, b, b
 collatz(10, 15)
 collatz(13, 16)
 collatz(53782, 72534)
-
