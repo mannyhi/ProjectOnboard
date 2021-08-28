@@ -1,8 +1,8 @@
 # Create a function that, when given two positive integers a b, returns the string "a" if integer a took fewer steps to
 # reach 1 than b when passed through the Collatz sequence, or "b" if integer b took fewer steps to reach 1 than a.
-#
+
 # Examples: collatz(10, 15) --> "a"
-# # Because 10.0 = 5.0 - 16.0 - 8.0 - 4.0 - 2.0 - 1.0: 6 steps and 15.0 = 17 steps
+# Because 10.0 = 5.0 - 16.0 - 8.0 - 4.0 - 2.0 - 1.0: 6 steps and 15.0 = 17 steps
 # collatz(13, 16) --> "b" and collatz(53782, 72534) --> "b"
 
 def collatz_cal(num):
